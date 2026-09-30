@@ -56,7 +56,7 @@ with col2:
         
         with st.chat_message("assistant"):
             try:
-                llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=api_key, temperature=0.3)
+                llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash", google_api_key=api_key, temperature=0.3)
                 res = llm.invoke(f"You are an expert HR Agent. Answer concisely: {q}")
                 ans = res.content
             except Exception as e:
