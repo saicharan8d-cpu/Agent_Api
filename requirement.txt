@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+torch
+torchvision
+scikit-learn
+google-generativeai
+python-dotenv
+toml
